@@ -1,0 +1,1 @@
+This is web application is about managing Books in library. App has been written in C# language using .NET Core 3.1 stack. It implements fully working CRUD operations on database using ORM Entity Framework Core system
