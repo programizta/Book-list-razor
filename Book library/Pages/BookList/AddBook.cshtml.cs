@@ -11,6 +11,8 @@ namespace Book_library
     public class AddBookModel : PageModel
     {
         private readonly AppDbContext dbContext;
+
+        [BindProperty]
         public Book Book { get; set; }
 
         public AddBookModel(AppDbContext dbContext)
@@ -21,6 +23,20 @@ namespace Book_library
         public void OnGet()
         {
 
+        }
+
+        public async Task<IActionResult> OnPost()
+        {
+            if (ModelState.IsValid)
+            {
+                await dbContext.Books.AddAsync(Book);
+                await dbContext.SaveChangesAsync();
+                return RedirectToPage("Index");
+            }
+            else
+            {
+                return Page();
+            }
         }
     }
 }
