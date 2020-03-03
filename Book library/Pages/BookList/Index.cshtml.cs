@@ -23,5 +23,18 @@ namespace Book_library
         {
             Books = await dbContext.Books.ToListAsync();
         }
+
+        public async Task<IActionResult> OnPostDelete(int id)
+        {
+            var bookToRemove = await dbContext
+                .Books
+                .FindAsync(id);
+
+            if (bookToRemove is null) return NotFound();
+
+            dbContext.Books.Remove(bookToRemove);
+            dbContext.SaveChanges();
+            return RedirectToPage("Index");
+        }
     }
 }

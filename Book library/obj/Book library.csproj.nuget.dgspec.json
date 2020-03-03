@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Peter\\Desktop\\Programming\\C#\\Book library\\Book library\\Book library.csproj": {}
+    "C:\\Users\\Peter\\Desktop\\Programming\\C#\\Book library Razor pages\\Book library\\Book library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Peter\\Desktop\\Programming\\C#\\Book library\\Book library\\Book library.csproj": {
+    "C:\\Users\\Peter\\Desktop\\Programming\\C#\\Book library Razor pages\\Book library\\Book library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peter\\Desktop\\Programming\\C#\\Book library\\Book library\\Book library.csproj",
+        "projectUniqueName": "C:\\Users\\Peter\\Desktop\\Programming\\C#\\Book library Razor pages\\Book library\\Book library.csproj",
         "projectName": "Book library",
-        "projectPath": "C:\\Users\\Peter\\Desktop\\Programming\\C#\\Book library\\Book library\\Book library.csproj",
+        "projectPath": "C:\\Users\\Peter\\Desktop\\Programming\\C#\\Book library Razor pages\\Book library\\Book library.csproj",
         "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Peter\\Desktop\\Programming\\C#\\Book library\\Book library\\obj\\",
+        "outputPath": "C:\\Users\\Peter\\Desktop\\Programming\\C#\\Book library Razor pages\\Book library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,12 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.8, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

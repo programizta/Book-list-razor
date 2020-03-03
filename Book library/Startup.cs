@@ -28,6 +28,9 @@ namespace Book_library
             // zarejestrowanie pośrednika bazodanowego, który rejestruje DbContext aplikacji zgodny z connection stringiem w appsettings.json
             services.AddDbContext<AppDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            // zarejestrowanie serwisu odpowiedzialnego za wywołania metod z API (kontrolera)
+            services.AddControllersWithViews();
+            
             // metoda AddRazorRuntimeCompilation() pozwala na kompilacje solucji
             // odświeżając stronę
             services.AddRazorPages().AddRazorRuntimeCompilation();
@@ -56,6 +59,8 @@ namespace Book_library
 
             app.UseEndpoints(endpoints =>
             {
+                // dodanie nowego endpointa w serwisach pośredniczących
+                endpoints.MapControllers();
                 endpoints.MapRazorPages();
             });
         }

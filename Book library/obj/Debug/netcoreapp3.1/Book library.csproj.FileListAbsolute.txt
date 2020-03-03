@@ -410,7 +410,9 @@ C:\Users\Peter\Desktop\Programming\C#\Book library\Book library\bin\Debug\netcor
 C:\Users\Peter\Desktop\Programming\C#\Book library\Book library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Peter\Desktop\Programming\C#\Book library\Book library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Peter\Desktop\Programming\C#\Book library\Book library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Peter\Desktop\Programming\C#\Book library\Book library\obj\Debug\netcoreapp3.1\Book library.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Peter\Desktop\Programming\C#\Book library\Book library\obj\Debug\netcoreapp3.1\Book library.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Peter\Desktop\Programming\C#\Book library\Book library\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\Index.cshtml.g.cs
 C:\Users\Peter\Desktop\Programming\C#\Book library\Book library\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\AddBook.cshtml.g.cs
+C:\Users\Peter\Desktop\Programming\C#\Book library\Book library\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\EditBook.cshtml.g.cs
+C:\Users\Peter\Desktop\Programming\C#\Book library\Book library\obj\Debug\netcoreapp3.1\Book library.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Peter\Desktop\Programming\C#\Book library\Book library\obj\Debug\netcoreapp3.1\Book library.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Peter\Desktop\Programming\C#\Book library\Book library\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\UpsertBook.cshtml.g.cs
